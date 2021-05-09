@@ -24,16 +24,29 @@ ul{
     height: auto;
     display:flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 3px;
 }
 .header-container h1 .central-textlogo_image{
     background-image: url('http://pngimg.com/uploads/wikipedia/wikipedia_PNG11.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 200px;
-    height: 100px;
-
+    width: 176px;
+    height: 30px;
+    
+}
+.header-container h3{
+    width: 100%;
+    height: 29.92px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    font-size: 20px;
+    margin: 0;
 }
 
 
