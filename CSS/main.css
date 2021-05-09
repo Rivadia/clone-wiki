@@ -9,6 +9,21 @@ ul{
     list-style: none;
 }
 
+button{
+    border: 0;
+    background-color:#fff; 
+    
+}
+
+
+.header-nav button:hover{
+    background-color: #eaecf0;
+    cursor: pointer;
+}
+
+.header-nav ul li button a{
+    color:#36c;
+}
 .header-container{
     width: 100%;
     height: auto;
@@ -58,5 +73,56 @@ header .header-nav{
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
+
+#header-nav-logo{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -1rem;
+    right:-3rem;
+}
+
+#header-nav-logo img{
+    width: 200px;
+    height: 183px;
+    margin: 25px;
+    margin-top: 75px;
+}
+
+.header-elements-left{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+}
+
+.header-nav-lang1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 0px;
+    justify-content: flex-end;
+    flex-flow: initial;
+    position: relative;
+    top: -4rem;
+    right: -3.8rem;
+}
+.header-nav-lang2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 0px;
+    justify-content: flex-end;
+    flex-flow: initial;
+    position: relative;
+    top: -3.0rem;
+    right: 0.2rem;
+}
+
 
 
